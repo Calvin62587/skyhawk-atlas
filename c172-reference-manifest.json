@@ -1,1 +1,3552 @@
-ûá^≠ÍeëÍÁzW±ä◊ù∫w±•Á-yŸrûá^≠Íev&†ûã-âÀ$zπﬁñòù◊›ˆ“G´ùÈlµ´n±ÏbµÁ\°◊
+{
+  "model": "Cessna 172P detailed (FlightGear-derived)",
+  "file": "c172-reference.glb",
+  "source": "https://theflightplaybook.com/credits/",
+  "sourceRepository": "https://github.com/c172p-team/c172p",
+  "license": "GPL-2.0",
+  "glbBytes": 2729484,
+  "glbVersion": 2,
+  "generator": "glTF-Transform v4.5.1",
+  "assetCopyright": "C172P team and original contributors; GPL-2.0; see CREDITS.md",
+  "nodes": 226,
+  "meshDefinitions": 204,
+  "meshInstances": 205,
+  "primitives": 205,
+  "sceneRoots": [
+    0,
+    120
+  ],
+  "extensionsUsed": [
+    "EXT_texture_webp",
+    "KHR_materials_clearcoat",
+    "KHR_mesh_quantization"
+  ],
+  "extensionsRequired": [
+    "EXT_texture_webp",
+    "KHR_mesh_quantization"
+  ],
+  "estimatedBoundsNormalizedGlbUnits": {
+    "min": [
+      -2.14067,
+      -1.36792,
+      -5.66097
+    ],
+    "max": [
+      6.09227,
+      1.09001,
+      5.65943
+    ],
+    "extents": [
+      8.23294,
+      2.45793,
+      11.3204
+    ],
+    "method": "Accessor bounds normalized and node-local scale/translation; no claim these are aircraft dimensions."
+  },
+  "orientationInference": "Longest axis is Z (wing span), longitudinal axis X (nose toward negative X, inferred from propeller/fuselage node names and translations), vertical axis Y. No node rotations are present; dimensions remain model-coordinate units.",
+  "classificationCounts": {
+    "electrical_avionics_visual": 49,
+    "cabin_interior": 49,
+    "propulsion_visual": 17,
+    "unclassified": 26,
+    "landing_gear": 16,
+    "structure_fuselage": 6,
+    "fuel_visual": 10,
+    "wings_flight_controls": 32
+  },
+  "classificationMethod": "Conservative keyword mapping from node names; visual/semantic review required. Counts describe classification labels, not verified aircraft system membership.",
+  "limitations": [
+    "C172P geometry, not C172S/FAC 172S geometry.",
+    "No airworthiness or maintenance reference.",
+    "Classifications are name-based provisional labels.",
+    "Explosion distances are visualization-only; no engineering installation points.",
+    "Dimensions are model coordinates; provider warns they are not aircraft data."
+  ],
+  "components": [
+    {
+      "nodeIndex": 2,
+      "meshIndex": 0,
+      "name": "Antenna_ADF",
+      "system": "electrical_avionics_visual",
+      "translation": [
+        0.671779990196228,
+        -0.8751949965953827,
+        0.01575000025331974
+      ],
+      "scale": [
+        0.09213000535964966,
+        0.09213000535964966,
+        0.09213000535964966
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 3,
+      "meshIndex": 1,
+      "name": "Antenna_VOR",
+      "system": "electrical_avionics_visual",
+      "translation": [
+        5.649104833602905,
+        0.9469499886035919,
+        0.0004000067710876465
+      ],
+      "scale": [
+        0.5142199993133545,
+        0.5142199993133545,
+        0.5142199993133545
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 4,
+      "meshIndex": 2,
+      "name": "ELTAntenna",
+      "system": "electrical_avionics_visual",
+      "translation": [
+        2.471779942512512,
+        0.10657000169157982,
+        -0.0012050000950694084
+      ],
+      "scale": [
+        0.14013000205159187,
+        0.14013000205159187,
+        0.14013000205159187
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 5,
+      "meshIndex": 3,
+      "name": "MarkerAntenna",
+      "system": "electrical_avionics_visual",
+      "translation": [
+        2.3727099895477295,
+        -0.8169699907302856,
+        0.00138000026345253
+      ],
+      "scale": [
+        0.04451000690460205,
+        0.04451000690460205,
+        0.04451000690460205
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 6,
+      "meshIndex": 4,
+      "name": "TransponderAntenna",
+      "system": "electrical_avionics_visual",
+      "translation": [
+        0.47913500666618347,
+        -0.8993900120258331,
+        0.0009700001683086157
+      ],
+      "scale": [
+        0.044829994440078735,
+        0.044829994440078735,
+        0.044829994440078735
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 7,
+      "meshIndex": 5,
+      "name": "VHFAntenna",
+      "system": "electrical_avionics_visual",
+      "translation": [
+        0.9266999661922455,
+        0.6781399846076965,
+        -0.007275000214576721
+      ],
+      "scale": [
+        0.3614550083875656,
+        0.3614550083875656,
+        0.3614550083875656
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 8,
+      "meshIndex": 6,
+      "name": "BeaconOff",
+      "system": "electrical_avionics_visual",
+      "translation": [
+        5.498600006103516,
+        1.0634100437164307,
+        4.00003045797348e-05
+      ],
+      "scale": [
+        0.029799938201904297,
+        0.029799938201904297,
+        0.029799938201904297
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 10,
+      "meshIndex": 7,
+      "name": "baggagedoorexterior",
+      "system": "cabin_interior",
+      "translation": [
+        1.6396700143814087,
+        -0.4414899945259094,
+        0.4084400087594986
+      ],
+      "scale": [
+        0.30107998847961426,
+        0.30107998847961426,
+        0.30107998847961426
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 11,
+      "meshIndex": 8,
+      "name": "baggagedoorhandle",
+      "system": "cabin_interior",
+      "translation": [
+        1.8175300359725952,
+        -0.43628498911857605,
+        0.4472149908542633
+      ],
+      "scale": [
+        0.0325700044631958,
+        0.0325700044631958,
+        0.0325700044631958
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 12,
+      "meshIndex": 9,
+      "name": "leftdoor",
+      "system": "cabin_interior",
+      "translation": [
+        0.35849998891353607,
+        -0.17091000080108643,
+        0.508779987692833
+      ],
+      "scale": [
+        0.5324699878692627,
+        0.5324699878692627,
+        0.5324699878692627
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 13,
+      "meshIndex": 10,
+      "name": "leftdoorhandle",
+      "system": "cabin_interior",
+      "translation": [
+        0.7387849986553192,
+        -0.17270999401807785,
+        0.51630499958992
+      ],
+      "scale": [
+        0.032574981451034546,
+        0.032574981451034546,
+        0.032574981451034546
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 14,
+      "meshIndex": 11,
+      "name": "oildoor",
+      "system": "propulsion_visual",
+      "translation": [
+        -0.8808850049972534,
+        0.1487400010228157,
+        -0.31185000389814377
+      ],
+      "scale": [
+        0.07964000850915909,
+        0.07964000850915909,
+        0.07964000850915909
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 15,
+      "meshIndex": 12,
+      "name": "rightdoor",
+      "system": "cabin_interior",
+      "translation": [
+        0.3573100119829178,
+        -0.1710299849510193,
+        -0.5096199959516525
+      ],
+      "scale": [
+        0.5324699878692627,
+        0.5324699878692627,
+        0.5324699878692627
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 16,
+      "meshIndex": 13,
+      "name": "rightdoorhandle",
+      "system": "cabin_interior",
+      "translation": [
+        0.739300012588501,
+        -0.17240500450134277,
+        -0.5172300040721893
+      ],
+      "scale": [
+        0.032559990882873535,
+        0.032559990882873535,
+        0.032559990882873535
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 17,
+      "meshIndex": 14,
+      "name": "windowframeleftext",
+      "system": "cabin_interior",
+      "translation": [
+        0.4100800147280097,
+        0.10249499976634979,
+        0.5166800022125244
+      ],
+      "scale": [
+        0.4207000145688653,
+        0.4207000145688653,
+        0.4207000145688653
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 18,
+      "meshIndex": 15,
+      "name": "windowframerightext",
+      "system": "cabin_interior",
+      "translation": [
+        0.41091000102460384,
+        0.10275000333786011,
+        -0.5177799761295319
+      ],
+      "scale": [
+        0.4198500011116266,
+        0.4198500011116266,
+        0.4198500011116266
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 20,
+      "meshIndex": 16,
+      "name": "airvent",
+      "system": "unclassified",
+      "translation": [
+        -0.5346649885177612,
+        -0.25983500480651855,
+        -0.5041949898004532
+      ],
+      "scale": [
+        0.04286500811576843,
+        0.04286500811576843,
+        0.04286500811576843
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 21,
+      "meshIndex": 17,
+      "name": "airventhole",
+      "system": "unclassified",
+      "translation": [
+        -0.5346899926662445,
+        -0.259784996509552,
+        -0.5048649907112122
+      ],
+      "scale": [
+        0.042669981718063354,
+        0.042669981718063354,
+        0.042669981718063354
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 22,
+      "meshIndex": 18,
+      "name": "Axle",
+      "system": "landing_gear",
+      "translation": [
+        -1.1126800179481506,
+        -1.183525025844574,
+        -0.001139998435974121
+      ],
+      "scale": [
+        0.07897000014781952,
+        0.07897000014781952,
+        0.07897000014781952
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 23,
+      "meshIndex": 19,
+      "name": "BottomLink",
+      "system": "landing_gear",
+      "translation": [
+        -0.9309850335121155,
+        -0.9217700064182281,
+        0.00033999979496002197
+      ],
+      "scale": [
+        0.10021501779556274,
+        0.10021501779556274,
+        0.10021501779556274
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 24,
+      "meshIndex": 20,
+      "name": "charniere3",
+      "system": "unclassified",
+      "translation": [
+        -0.1136499997228384,
+        -0.3132200129330158,
+        0.528329998254776
+      ],
+      "scale": [
+        0.2016800157725811,
+        0.2016800157725811,
+        0.2016800157725811
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 25,
+      "meshIndex": 21,
+      "name": "charniere4",
+      "system": "unclassified",
+      "translation": [
+        -0.1151999980211258,
+        -0.31465500965714455,
+        -0.528674989938736
+      ],
+      "scale": [
+        0.20313500985503197,
+        0.20313500985503197,
+        0.20313500985503197
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 26,
+      "meshIndex": 22,
+      "name": "Exhaust",
+      "system": "propulsion_visual",
+      "translation": [
+        -1.3476450443267822,
+        -0.5909699946641922,
+        -0.24836000055074692
+      ],
+      "scale": [
+        0.12745998799800873,
+        0.12745998799800873,
+        0.12745998799800873
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 27,
+      "meshIndex": 23,
+      "name": "fairing1",
+      "system": "structure_fuselage",
+      "translation": [
+        -1.0089200139045715,
+        -1.1412799656391144,
+        -0.001139998435974121
+      ],
+      "scale": [
+        0.3989400267601013,
+        0.3989400267601013,
+        0.3989400267601013
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 28,
+      "meshIndex": 24,
+      "name": "fairing2",
+      "system": "structure_fuselage",
+      "translation": [
+        0.6334450244903564,
+        -1.078300029039383,
+        1.1305899918079376
+      ],
+      "scale": [
+        0.4453350305557251,
+        0.4453350305557251,
+        0.4453350305557251
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 29,
+      "meshIndex": 25,
+      "name": "fairing3",
+      "system": "structure_fuselage",
+      "translation": [
+        0.6334450244903564,
+        -1.0773500204086304,
+        -1.134104996919632
+      ],
+      "scale": [
+        0.4453350305557251,
+        0.4453350305557251,
+        0.4453350305557251
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 30,
+      "meshIndex": 26,
+      "name": "FuelCapPort",
+      "system": "fuel_visual",
+      "translation": [
+        0.2056649997830391,
+        0.5044050067663193,
+        0.7964949905872345
+      ],
+      "scale": [
+        0.03458500653505325,
+        0.03458500653505325,
+        0.03458500653505325
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 31,
+      "meshIndex": 27,
+      "name": "fuselage",
+      "system": "structure_fuselage",
+      "translation": [
+        1.5917049050331116,
+        -0.17715999484062195,
+        0
+      ],
+      "scale": [
+        3.3649749159812927,
+        3.3649749159812927,
+        3.3649749159812927
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 32,
+      "meshIndex": 28,
+      "name": "fuselage_cowling",
+      "system": "propulsion_visual",
+      "translation": [
+        -1.1892049908638,
+        -0.467615008354187,
+        0
+      ],
+      "scale": [
+        0.5241299867630005,
+        0.5241299867630005,
+        0.5241299867630005
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 33,
+      "meshIndex": 29,
+      "name": "fuselage_cowling_top",
+      "system": "propulsion_visual",
+      "translation": [
+        -1.184799998998642,
+        -0.004235006868839264,
+        0.0006900131702423096
+      ],
+      "scale": [
+        0.5264100134372711,
+        0.5264100134372711,
+        0.5264100134372711
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 34,
+      "meshIndex": 30,
+      "name": "fuselageexhausthole",
+      "system": "propulsion_visual",
+      "translation": [
+        -1.3485000133514404,
+        -0.5739299952983856,
+        -0.24399999529123306
+      ],
+      "scale": [
+        0.073309987783432,
+        0.073309987783432,
+        0.073309987783432
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 35,
+      "meshIndex": 31,
+      "name": "handle",
+      "system": "unclassified",
+      "translation": [
+        -0.6488099992275238,
+        0.11056999862194061,
+        -0.0025250017642974854
+      ],
+      "scale": [
+        0.5083650052547455,
+        0.5083650052547455,
+        0.5083650052547455
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 36,
+      "meshIndex": 32,
+      "name": "LeftWheel",
+      "system": "landing_gear",
+      "translation": [
+        0.5301500111818314,
+        -1.1469300091266632,
+        1.114109992980957
+      ],
+      "scale": [
+        0.17900000512599945,
+        0.17900000512599945,
+        0.17900000512599945
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 37,
+      "meshIndex": 33,
+      "name": "LeftWheelBrake",
+      "system": "landing_gear",
+      "translation": [
+        0.5286650061607361,
+        -1.1468449831008911,
+        1.0410000085830688
+      ],
+      "scale": [
+        0.09660500288009644,
+        0.09660500288009644,
+        0.09660500288009644
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 38,
+      "meshIndex": 34,
+      "name": "LeftWheelStrut",
+      "system": "landing_gear",
+      "translation": [
+        0.6673699915409088,
+        -0.9469899833202362,
+        0.7108450084924698
+      ],
+      "scale": [
+        0.34666500985622406,
+        0.34666500985622406,
+        0.34666500985622406
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 39,
+      "meshIndex": 35,
+      "name": "NoseWheel",
+      "system": "landing_gear",
+      "translation": [
+        -1.1149200201034546,
+        -1.188920021057129,
+        0
+      ],
+      "scale": [
+        0.17900002002716064,
+        0.17900002002716064,
+        0.17900002002716064
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 40,
+      "meshIndex": 36,
+      "name": "NoseWheelStrut",
+      "system": "landing_gear",
+      "translation": [
+        -1.0346499979496002,
+        -0.9376049935817719,
+        -0.0015199966728687286
+      ],
+      "scale": [
+        0.28159502148628235,
+        0.28159502148628235,
+        0.28159502148628235
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 41,
+      "meshIndex": 37,
+      "name": "OilCap",
+      "system": "propulsion_visual",
+      "translation": [
+        -0.8801400065422058,
+        0.017354998737573624,
+        -0.29195499420166016
+      ],
+      "scale": [
+        0.13167500123381615,
+        0.13167500123381615,
+        0.13167500123381615
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 42,
+      "meshIndex": 38,
+      "name": "oilcompartment",
+      "system": "propulsion_visual",
+      "translation": [
+        -0.8808850049972534,
+        0.11868500337004662,
+        -0.31185000389814377
+      ],
+      "scale": [
+        0.07964000850915909,
+        0.07964000850915909,
+        0.07964000850915909
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 43,
+      "meshIndex": 39,
+      "name": "oilcompartmenthole",
+      "system": "propulsion_visual",
+      "translation": [
+        -0.8799099922180176,
+        0.11340000107884407,
+        -0.29029498994350433
+      ],
+      "scale": [
+        0.027724996209144592,
+        0.027724996209144592,
+        0.027724996209144592
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 44,
+      "meshIndex": 40,
+      "name": "radi_box",
+      "system": "unclassified",
+      "translation": [
+        -1.4549899697303772,
+        -0.5531299859285355,
+        0
+      ],
+      "scale": [
+        0.20625001192092896,
+        0.20625001192092896,
+        0.20625001192092896
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 45,
+      "meshIndex": 41,
+      "name": "radiator",
+      "system": "propulsion_visual",
+      "translation": [
+        -1.5946600437164307,
+        -0.5176750123500824,
+        -0.0007050000131130219
+      ],
+      "scale": [
+        0.047814998775720596,
+        0.047814998775720596,
+        0.047814998775720596
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 46,
+      "meshIndex": 42,
+      "name": "RightWheel",
+      "system": "landing_gear",
+      "translation": [
+        0.5301499962806702,
+        -1.1469300091266632,
+        -1.1151899695396423
+      ],
+      "scale": [
+        0.1789400279521942,
+        0.1789400279521942,
+        0.1789400279521942
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 47,
+      "meshIndex": 43,
+      "name": "RightWheelBrake",
+      "system": "landing_gear",
+      "translation": [
+        0.5286650061607361,
+        -1.1468449831008911,
+        -1.0428950190544128
+      ],
+      "scale": [
+        0.09660500288009644,
+        0.09660500288009644,
+        0.09660500288009644
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 48,
+      "meshIndex": 44,
+      "name": "RightWheelStrut",
+      "system": "landing_gear",
+      "translation": [
+        0.6568900048732758,
+        -0.9469899833202362,
+        -0.7221350222826004
+      ],
+      "scale": [
+        0.3374050110578537,
+        0.3374050110578537,
+        0.3374050110578537
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 49,
+      "meshIndex": 45,
+      "name": "TopLink",
+      "system": "landing_gear",
+      "translation": [
+        -0.9251450002193451,
+        -0.8241550028324127,
+        0.0001400001347064972
+      ],
+      "scale": [
+        0.08969500660896301,
+        0.08969500660896301,
+        0.08969500660896301
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 50,
+      "meshIndex": 46,
+      "name": "vent",
+      "system": "unclassified",
+      "translation": [
+        -0.6444349884986877,
+        -0.0789049994200468,
+        -0.5348400175571442
+      ],
+      "scale": [
+        0.032875001430511475,
+        0.032875001430511475,
+        0.032875001430511475
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 51,
+      "meshIndex": 47,
+      "name": "venthole",
+      "system": "unclassified",
+      "translation": [
+        -0.6493799984455109,
+        -0.0785949993878603,
+        -0.5354650020599365
+      ],
+      "scale": [
+        0.027929991483688354,
+        0.027929991483688354,
+        0.027929991483688354
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 53,
+      "meshIndex": 48,
+      "name": "carpethole",
+      "system": "cabin_interior",
+      "translation": [
+        -0.5780850052833557,
+        -0.6833500266075134,
+        0.0011149942874908447
+      ],
+      "scale": [
+        0.3543750047683716,
+        0.3543750047683716,
+        0.3543750047683716
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 54,
+      "meshIndex": 49,
+      "name": "gloveboxdoor",
+      "system": "cabin_interior",
+      "translation": [
+        -0.3693850040435791,
+        -0.22173500061035156,
+        -0.3816400021314621
+      ],
+      "scale": [
+        0.0695200115442276,
+        0.0695200115442276,
+        0.0695200115442276
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 55,
+      "meshIndex": 50,
+      "name": "gloveboxlock",
+      "system": "cabin_interior",
+      "translation": [
+        -0.3634749948978424,
+        -0.20764999836683273,
+        -0.38077498972415924
+      ],
+      "scale": [
+        0.010559998452663422,
+        0.010559998452663422,
+        0.010559998452663422
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 57,
+      "meshIndex": 51,
+      "name": "Panel_0",
+      "system": "cabin_interior",
+      "translation": [
+        -0.47671499848365784,
+        0.10927499778335914,
+        -0.002330005168914795
+      ],
+      "scale": [
+        0.49327999353408813,
+        0.49327999353408813,
+        0.49327999353408813
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 58,
+      "meshIndex": 52,
+      "name": "Panel_1",
+      "system": "cabin_interior",
+      "translation": [
+        -0.5967549979686737,
+        0.06798500381410122,
+        -0.0011699944734573364
+      ],
+      "scale": [
+        0.4971200078725815,
+        0.4971200078725815,
+        0.4971200078725815
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 59,
+      "meshIndex": 53,
+      "name": "SeatMounts.0",
+      "system": "cabin_interior",
+      "translation": [
+        0.0667949989438057,
+        -0.6053450107574463,
+        -0.22308499366044998
+      ],
+      "scale": [
+        0.21691500395536423,
+        0.21691500395536423,
+        0.21691500395536423
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 60,
+      "meshIndex": 54,
+      "name": "SeatMounts.1",
+      "system": "cabin_interior",
+      "translation": [
+        0.0667949989438057,
+        -0.6053450107574463,
+        0.23904499784111977
+      ],
+      "scale": [
+        0.21691500395536423,
+        0.21691500395536423,
+        0.21691500395536423
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 61,
+      "meshIndex": 55,
+      "name": "SeatMounts.2",
+      "system": "cabin_interior",
+      "translation": [
+        0.8430100083351135,
+        -0.6559099853038788,
+        0.0021499991416931152
+      ],
+      "scale": [
+        0.29982998967170715,
+        0.29982998967170715,
+        0.29982998967170715
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 63,
+      "meshIndex": 56,
+      "name": "Propeller",
+      "system": "propulsion_visual",
+      "translation": [
+        -1.8125,
+        -0.04973500967025757,
+        -0.0068800002336502075
+      ],
+      "scale": [
+        0.854295015335083,
+        0.854295015335083,
+        0.854295015335083
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 64,
+      "meshIndex": 57,
+      "name": "Spinner",
+      "system": "propulsion_visual",
+      "translation": [
+        -1.933840036392212,
+        -0.05189500004053116,
+        -0.0012749992311000824
+      ],
+      "scale": [
+        0.20683002471923828,
+        0.20683002471923828,
+        0.20683002471923828
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 66,
+      "meshIndex": 58,
+      "name": "RearNavLight",
+      "system": "electrical_avionics_visual",
+      "translation": [
+        6.078474998474121,
+        0.9750399887561798,
+        0.0004000002518296242
+      ],
+      "scale": [
+        0.021169990301132202,
+        0.021169990301132202,
+        0.021169990301132202
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 67,
+      "meshIndex": 59,
+      "name": "rudder_1",
+      "system": "wings_flight_controls",
+      "translation": [
+        5.508929967880249,
+        0.19261503219604492,
+        0
+      ],
+      "scale": [
+        0.8337550163269043,
+        0.8337550163269043,
+        0.8337550163269043
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 68,
+      "meshIndex": 60,
+      "name": "ruddercableleft",
+      "system": "wings_flight_controls",
+      "translation": [
+        4.853065013885498,
+        -0.5404849946498871,
+        0.068529998883605
+      ],
+      "scale": [
+        0.08943510055541992,
+        0.08943510055541992,
+        0.08943510055541992
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 69,
+      "meshIndex": 61,
+      "name": "ruddercablelefthinge",
+      "system": "wings_flight_controls",
+      "translation": [
+        4.9513750076293945,
+        -0.5412299931049347,
+        0.04966999962925911
+      ],
+      "scale": [
+        0.028055191040039062,
+        0.028055191040039062,
+        0.028055191040039062
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 70,
+      "meshIndex": 62,
+      "name": "ruddercableports",
+      "system": "wings_flight_controls",
+      "translation": [
+        4.747514963150024,
+        -0.5399850010871887,
+        -0.00016999989748001099
+      ],
+      "scale": [
+        0.10073000192642212,
+        0.10073000192642212,
+        0.10073000192642212
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 71,
+      "meshIndex": 63,
+      "name": "ruddercableportshole",
+      "system": "wings_flight_controls",
+      "translation": [
+        4.7522900104522705,
+        -0.5403299927711487,
+        -0.0005600005388259888
+      ],
+      "scale": [
+        0.09927999973297119,
+        0.09927999973297119,
+        0.09927999973297119
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 72,
+      "meshIndex": 64,
+      "name": "ruddercableright",
+      "system": "wings_flight_controls",
+      "translation": [
+        4.841629981994629,
+        -0.5402199923992157,
+        -0.0713799986988306
+      ],
+      "scale": [
+        0.10117006301879883,
+        0.10117006301879883,
+        0.10117006301879883
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 73,
+      "meshIndex": 65,
+      "name": "ruddercablerighthinge",
+      "system": "wings_flight_controls",
+      "translation": [
+        4.952635049819946,
+        -0.5423900187015533,
+        -0.04857999924570322
+      ],
+      "scale": [
+        0.027445077896118164,
+        0.027445077896118164,
+        0.027445077896118164
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 75,
+      "meshIndex": 66,
+      "name": "TieDownLeft",
+      "system": "landing_gear",
+      "translation": [
+        0.10889000073075294,
+        0.35821500420570374,
+        2.2395349740982056
+      ],
+      "scale": [
+        0.015974998474121094,
+        0.015974998474121094,
+        0.015974998474121094
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 76,
+      "meshIndex": 67,
+      "name": "TieDownRight",
+      "system": "landing_gear",
+      "translation": [
+        0.10150500014424324,
+        0.3612699955701828,
+        -2.2443699836730957
+      ],
+      "scale": [
+        0.016520008444786072,
+        0.016520008444786072,
+        0.016520008444786072
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 77,
+      "meshIndex": 68,
+      "name": "TieDownTail",
+      "system": "landing_gear",
+      "translation": [
+        4.692039966583252,
+        -0.6719749867916107,
+        0.002529999997932464
+      ],
+      "scale": [
+        0.01640501618385315,
+        0.01640501618385315,
+        0.01640501618385315
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 79,
+      "meshIndex": 69,
+      "name": "glas",
+      "system": "unclassified",
+      "translation": [
+        0.6933200359344482,
+        0.2037149891257286,
+        0
+      ],
+      "scale": [
+        1.3153300285339355,
+        1.3153300285339355,
+        1.3153300285339355
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 80,
+      "meshIndex": 70,
+      "name": "landinglightcover",
+      "system": "electrical_avionics_visual",
+      "translation": [
+        -0.07800000149291009,
+        0.4990999847650528,
+        2.8580849170684814
+      ],
+      "scale": [
+        0.17821502685546875,
+        0.17821502685546875,
+        0.17821502685546875
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 81,
+      "meshIndex": 71,
+      "name": "leftwindow",
+      "system": "cabin_interior",
+      "translation": [
+        0.41039498755708337,
+        0.10274000465869904,
+        0.514270007610321
+      ],
+      "scale": [
+        0.41955498745664954,
+        0.41955498745664954,
+        0.41955498745664954
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 82,
+      "meshIndex": 72,
+      "name": "rightwindow",
+      "system": "cabin_interior",
+      "translation": [
+        0.41039498755708337,
+        0.10274000465869904,
+        -0.5169699788093567
+      ],
+      "scale": [
+        0.41955498745664954,
+        0.41955498745664954,
+        0.41955498745664954
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 84,
+      "meshIndex": 73,
+      "name": "Beacon",
+      "system": "electrical_avionics_visual",
+      "translation": [
+        5.499769926071167,
+        1.0524399876594543,
+        0.00015999935567378998
+      ],
+      "scale": [
+        0.02390998601913452,
+        0.02390998601913452,
+        0.02390998601913452
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 85,
+      "meshIndex": 74,
+      "name": "BeaconMount",
+      "system": "electrical_avionics_visual",
+      "translation": [
+        5.497699975967407,
+        1.032700002193451,
+        3.50000336766243e-05
+      ],
+      "scale": [
+        0.0306398868560791,
+        0.0306398868560791,
+        0.0306398868560791
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 86,
+      "meshIndex": 75,
+      "name": "elevatorleft",
+      "system": "wings_flight_controls",
+      "translation": [
+        5.102930068969727,
+        -0.4233049899339676,
+        0.9103850219398737
+      ],
+      "scale": [
+        0.8602750208228827,
+        0.8602750208228827,
+        0.8602750208228827
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 87,
+      "meshIndex": 76,
+      "name": "elevatorright",
+      "system": "wings_flight_controls",
+      "translation": [
+        5.113399982452393,
+        -0.42407000064849854,
+        -0.9103850219398737
+      ],
+      "scale": [
+        0.8602750208228827,
+        0.8602750208228827,
+        0.8602750208228827
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 88,
+      "meshIndex": 77,
+      "name": "elevatortrim",
+      "system": "wings_flight_controls",
+      "translation": [
+        5.363450050354004,
+        -0.43412500619888306,
+        -0.8552699834108353
+      ],
+      "scale": [
+        0.45166997611522675,
+        0.45166997611522675,
+        0.45166997611522675
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 89,
+      "meshIndex": 78,
+      "name": "hstab",
+      "system": "wings_flight_controls",
+      "translation": [
+        4.573869943618774,
+        -0.41322000324726105,
+        0
+      ],
+      "scale": [
+        1.7706600427627563,
+        1.7706600427627563,
+        1.7706600427627563
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 90,
+      "meshIndex": 79,
+      "name": "vstab.001",
+      "system": "wings_flight_controls",
+      "translation": [
+        3.9951648712158203,
+        0.33526498079299927,
+        0
+      ],
+      "scale": [
+        1.6693449020385742,
+        1.6693449020385742,
+        1.6693449020385742
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 92,
+      "meshIndex": 80,
+      "name": "courtesyoff",
+      "system": "unclassified",
+      "translation": [
+        0.7370850145816803,
+        0.343314990401268,
+        -0.006375014781951904
+      ],
+      "scale": [
+        1.7445749640464783,
+        1.7445749640464783,
+        1.7445749640464783
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 93,
+      "meshIndex": 81,
+      "name": "FuelCapStarboard",
+      "system": "fuel_visual",
+      "translation": [
+        0.2059450000524521,
+        0.5039350092411041,
+        -0.7998199760913849
+      ],
+      "scale": [
+        0.03461000323295593,
+        0.03461000323295593,
+        0.03461000323295593
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 94,
+      "meshIndex": 82,
+      "name": "fuelportport",
+      "system": "fuel_visual",
+      "translation": [
+        0.20550499856472015,
+        0.47971999645233154,
+        0.7965750098228455
+      ],
+      "scale": [
+        0.028514981269836426,
+        0.028514981269836426,
+        0.028514981269836426
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 95,
+      "meshIndex": 83,
+      "name": "fuelportstarboard",
+      "system": "fuel_visual",
+      "translation": [
+        0.20636500418186188,
+        0.47971999645233154,
+        -0.8001849949359894
+      ],
+      "scale": [
+        0.028515011072158813,
+        0.028515011072158813,
+        0.028515011072158813
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 96,
+      "meshIndex": 84,
+      "name": "fuelportstarboardhole",
+      "system": "fuel_visual",
+      "translation": [
+        0.20640499889850616,
+        0.48272500932216644,
+        -0.8000999987125397
+      ],
+      "scale": [
+        0.0264350026845932,
+        0.0264350026845932,
+        0.0264350026845932
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 97,
+      "meshIndex": 85,
+      "name": "fuelportstarporthole",
+      "system": "fuel_visual",
+      "translation": [
+        0.20554500073194504,
+        0.48272500932216644,
+        0.7966600060462952
+      ],
+      "scale": [
+        0.026434995234012604,
+        0.026434995234012604,
+        0.026434995234012604
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 98,
+      "meshIndex": 86,
+      "name": "fuelvent",
+      "system": "fuel_visual",
+      "translation": [
+        0.18684500455856323,
+        0.3804900050163269,
+        2.138129949569702
+      ],
+      "scale": [
+        0.035420000553131104,
+        0.035420000553131104,
+        0.035420000553131104
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 99,
+      "meshIndex": 87,
+      "name": "LeftNavLight",
+      "system": "electrical_avionics_visual",
+      "translation": [
+        0.14365499839186668,
+        0.5283800065517426,
+        5.6394500732421875
+      ],
+      "scale": [
+        0.0411749966442585,
+        0.0411749966442585,
+        0.0411749966442585
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 100,
+      "meshIndex": 88,
+      "name": "lightlanding",
+      "system": "electrical_avionics_visual",
+      "translation": [
+        -0.04825500026345253,
+        0.5056700110435486,
+        2.920590043067932
+      ],
+      "scale": [
+        0.04221999645233154,
+        0.04221999645233154,
+        0.04221999645233154
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 101,
+      "meshIndex": 89,
+      "name": "lighttaxi",
+      "system": "electrical_avionics_visual",
+      "translation": [
+        -0.051590001210570335,
+        0.5034550130367279,
+        2.8074649572372437
+      ],
+      "scale": [
+        0.042204976081848145,
+        0.042204976081848145,
+        0.042204976081848145
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 102,
+      "meshIndex": 90,
+      "name": "PitotTube",
+      "system": "electrical_avionics_visual",
+      "translation": [
+        -0.12402000278234482,
+        0.41484999656677246,
+        1.526360034942627
+      ],
+      "scale": [
+        0.0595100000500679,
+        0.0595100000500679,
+        0.0595100000500679
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 103,
+      "meshIndex": 91,
+      "name": "RightNavLight",
+      "system": "electrical_avionics_visual",
+      "translation": [
+        0.14272500202059746,
+        0.5317899882793427,
+        -5.640570163726807
+      ],
+      "scale": [
+        0.04149499908089638,
+        0.04149499908089638,
+        0.04149499908089638
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 104,
+      "meshIndex": 92,
+      "name": "wing_0",
+      "system": "wings_flight_controls",
+      "translation": [
+        -0.07800000149291009,
+        0.4990999847650528,
+        2.8580849170684814
+      ],
+      "scale": [
+        0.17821502685546875,
+        0.17821502685546875,
+        0.17821502685546875
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 106,
+      "meshIndex": 93,
+      "name": "flaps",
+      "system": "wings_flight_controls",
+      "translation": [
+        1.121419996023178,
+        0.3067049980163574,
+        0.0001500844955444336
+      ],
+      "scale": [
+        2.615090012550354,
+        2.615090012550354,
+        2.615090012550354
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 107,
+      "meshIndex": 94,
+      "name": "fuelcompartment",
+      "system": "fuel_visual",
+      "translation": [
+        0.20562999695539474,
+        0.49244000017642975,
+        -0.0015099942684173584
+      ],
+      "scale": [
+        0.8539099991321564,
+        0.8539099991321564,
+        0.8539099991321564
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 108,
+      "meshIndex": 95,
+      "name": "leftaileron",
+      "system": "wings_flight_controls",
+      "translation": [
+        1.1716800034046173,
+        0.37684498727321625,
+        4.0403149127960205
+      ],
+      "scale": [
+        1.424144983291626,
+        1.424144983291626,
+        1.424144983291626
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 109,
+      "meshIndex": 96,
+      "name": "rightaileron",
+      "system": "wings_flight_controls",
+      "translation": [
+        1.1716800034046173,
+        0.37684498727321625,
+        -4.0403149127960205
+      ],
+      "scale": [
+        1.424144983291626,
+        1.424144983291626,
+        1.424144983291626
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 110,
+      "meshIndex": 97,
+      "name": "wing_1C",
+      "system": "wings_flight_controls",
+      "translation": [
+        0.11431999877095222,
+        0.5005499869585037,
+        0
+      ],
+      "scale": [
+        0.5175600051879883,
+        0.5175600051879883,
+        0.5175600051879883
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 111,
+      "meshIndex": 98,
+      "name": "wing_1Ledge",
+      "system": "wings_flight_controls",
+      "translation": [
+        -0.036079999059438705,
+        0.45988498628139496,
+        0.5144000053405762
+      ],
+      "scale": [
+        0.1234699971973896,
+        0.1234699971973896,
+        0.1234699971973896
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 112,
+      "meshIndex": 99,
+      "name": "wing_1Redge",
+      "system": "wings_flight_controls",
+      "translation": [
+        -0.036079999059438705,
+        0.4598499834537506,
+        -0.5148699879646301
+      ],
+      "scale": [
+        0.1234699971973896,
+        0.1234699971973896,
+        0.1234699971973896
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 113,
+      "meshIndex": 100,
+      "name": "wing_center",
+      "system": "wings_flight_controls",
+      "translation": [
+        0.7340049799531698,
+        0.38027000427246094,
+        0
+      ],
+      "scale": [
+        2.6161699295043945,
+        2.6161699295043945,
+        2.6161699295043945
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 114,
+      "meshIndex": 101,
+      "name": "wing_leading_edge_center",
+      "system": "wings_flight_controls",
+      "translation": [
+        -0.03541499748826027,
+        0.4766650050878525,
+        0
+      ],
+      "scale": [
+        2.6161699295043945,
+        2.6161699295043945,
+        2.6161699295043945
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 115,
+      "meshIndex": 102,
+      "name": "wing_leading_edge_left",
+      "system": "wings_flight_controls",
+      "translation": [
+        -0.014344997704029083,
+        0.5283149927854538,
+        4.0403149127960205
+      ],
+      "scale": [
+        1.424144983291626,
+        1.424144983291626,
+        1.424144983291626
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 116,
+      "meshIndex": 103,
+      "name": "wing_leading_edge_right",
+      "system": "wings_flight_controls",
+      "translation": [
+        -0.014344997704029083,
+        0.5283149927854538,
+        -4.0403149127960205
+      ],
+      "scale": [
+        1.424144983291626,
+        1.424144983291626,
+        1.424144983291626
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 117,
+      "meshIndex": 104,
+      "name": "wing_left",
+      "system": "wings_flight_controls",
+      "translation": [
+        0.5586099978536367,
+        0.45865498483181,
+        4.125935077667236
+      ],
+      "scale": [
+        1.510115146636963,
+        1.510115146636963,
+        1.510115146636963
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 118,
+      "meshIndex": 105,
+      "name": "wing_right",
+      "system": "wings_flight_controls",
+      "translation": [
+        0.5586099978536367,
+        0.4588649868965149,
+        -4.126065015792847
+      ],
+      "scale": [
+        1.5098950862884521,
+        1.5098950862884521,
+        1.5098950862884521
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 119,
+      "meshIndex": 106,
+      "name": "wingventhole",
+      "system": "wings_flight_controls",
+      "translation": [
+        -0.11597999930381775,
+        0.4632900059223175,
+        7.000565528869629e-05
+      ],
+      "scale": [
+        0.5728699862957001,
+        0.5728699862957001,
+        0.5728699862957001
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 121,
+      "meshIndex": 107,
+      "name": "AirVent_left",
+      "system": "unclassified",
+      "translation": [
+        -0.017604999244213104,
+        0.4649900048971176,
+        0.5630950033664703
+      ],
+      "scale": [
+        0.12295499444007874,
+        0.12295499444007874,
+        0.12295499444007874
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 122,
+      "meshIndex": 108,
+      "name": "AirVent_right",
+      "system": "unclassified",
+      "translation": [
+        -0.018179999431595206,
+        0.4652149975299835,
+        -0.5586399883031845
+      ],
+      "scale": [
+        0.10413999855518341,
+        0.10413999855518341,
+        0.10413999855518341
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 123,
+      "meshIndex": 109,
+      "name": "baggagedoorinterior",
+      "system": "cabin_interior",
+      "translation": [
+        1.638629972934723,
+        -0.4414899945259094,
+        0.4022600054740906
+      ],
+      "scale": [
+        0.30107998847961426,
+        0.30107998847961426,
+        0.30107998847961426
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 124,
+      "meshIndex": 110,
+      "name": "bolts",
+      "system": "unclassified",
+      "translation": [
+        -0.2979999929666519,
+        -0.24655500799417496,
+        -9.499490261077881e-05
+      ],
+      "scale": [
+        0.4797549992799759,
+        0.4797549992799759,
+        0.4797549992799759
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 125,
+      "meshIndex": 111,
+      "name": "CeilingSpeaker",
+      "system": "unclassified",
+      "translation": [
+        0.3382200002670288,
+        0.44031499326229095,
+        0
+      ],
+      "scale": [
+        0.18092000484466553,
+        0.18092000484466553,
+        0.18092000484466553
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 126,
+      "meshIndex": 112,
+      "name": "DomeLightRed",
+      "system": "electrical_avionics_visual",
+      "translation": [
+        0.3293749988079071,
+        0.4325850009918213,
+        0
+      ],
+      "scale": [
+        0.03508000075817108,
+        0.03508000075817108,
+        0.03508000075817108
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 127,
+      "meshIndex": 113,
+      "name": "DomeLightWhite",
+      "system": "electrical_avionics_visual",
+      "translation": [
+        0.4894150048494339,
+        0.42335499823093414,
+        0
+      ],
+      "scale": [
+        0.046859998255968094,
+        0.046859998255968094,
+        0.046859998255968094
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 128,
+      "meshIndex": 114,
+      "name": "DomeSliderWhite",
+      "system": "unclassified",
+      "translation": [
+        0.4422599971294403,
+        0.4215099960565567,
+        0.012149999849498272
+      ],
+      "scale": [
+        0.004350000061094761,
+        0.004350000061094761,
+        0.004350000061094761
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 129,
+      "meshIndex": 115,
+      "name": "DomeSwitchRed",
+      "system": "electrical_avionics_visual",
+      "translation": [
+        0.35664500296115875,
+        0.41783998906612396,
+        0.007619999931193888
+      ],
+      "scale": [
+        0.01021999993827194,
+        0.01021999993827194,
+        0.01021999993827194
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 130,
+      "meshIndex": 116,
+      "name": "DomeSwitchWhite",
+      "system": "electrical_avionics_visual",
+      "translation": [
+        0.4582449942827225,
+        0.42274001240730286,
+        0.0033000002149492502
+      ],
+      "scale": [
+        0.010200000135228038,
+        0.010200000135228038,
+        0.010200000135228038
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 131,
+      "meshIndex": 117,
+      "name": "FuelSelectorBoth",
+      "system": "fuel_visual",
+      "translation": [
+        -0.2630700096487999,
+        -0.6230700016021729,
+        -0.0011400000657886267
+      ],
+      "scale": [
+        0.03816000372171402,
+        0.03816000372171402,
+        0.03816000372171402
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 132,
+      "meshIndex": 118,
+      "name": "FuelSelectorFace",
+      "system": "fuel_visual",
+      "translation": [
+        -0.2425050064921379,
+        -0.6421299874782562,
+        -0.0011400021612644196
+      ],
+      "scale": [
+        0.07691500335931778,
+        0.07691500335931778,
+        0.07691500335931778
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 135,
+      "meshIndex": 119,
+      "name": "glovebox",
+      "system": "cabin_interior",
+      "translation": [
+        -0.41960999369621277,
+        -0.22123000025749207,
+        -0.3816400021314621
+      ],
+      "scale": [
+        0.0695200115442276,
+        0.0695200115442276,
+        0.0695200115442276
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 136,
+      "meshIndex": 119,
+      "name": "gloveboxfull",
+      "system": "cabin_interior",
+      "translation": [
+        -0.41960999369621277,
+        -0.22123000025749207,
+        -0.3816400021314621
+      ],
+      "scale": [
+        0.0695200115442276,
+        0.0695200115442276,
+        0.0695200115442276
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 137,
+      "meshIndex": 120,
+      "name": "panel_1_1.inf",
+      "system": "cabin_interior",
+      "translation": [
+        -0.3634500056505203,
+        -0.24157000333070755,
+        0.00012999773025512695
+      ],
+      "scale": [
+        0.4690699875354767,
+        0.4690699875354767,
+        0.4690699875354767
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 138,
+      "meshIndex": 121,
+      "name": "panel_1_1_right",
+      "system": "cabin_interior",
+      "translation": [
+        -0.36565499007701874,
+        0.0007699951529502869,
+        -0.33718499541282654
+      ],
+      "scale": [
+        0.1706399992108345,
+        0.1706399992108345,
+        0.1706399992108345
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 139,
+      "meshIndex": 122,
+      "name": "panel_1_gauges",
+      "system": "cabin_interior",
+      "translation": [
+        -0.3668549954891205,
+        0.00010000169277191162,
+        0.21714000217616558
+      ],
+      "scale": [
+        0.2542900014668703,
+        0.2542900014668703,
+        0.2542900014668703
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 140,
+      "meshIndex": 123,
+      "name": "Pedestal",
+      "system": "cabin_interior",
+      "translation": [
+        -0.3892200067639351,
+        -0.51323501765728,
+        -0.0009150020778179169
+      ],
+      "scale": [
+        0.23114001005887985,
+        0.23114001005887985,
+        0.23114001005887985
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 141,
+      "meshIndex": 124,
+      "name": "RudderTrimBase",
+      "system": "wings_flight_controls",
+      "translation": [
+        -0.32984499633312225,
+        -0.549795001745224,
+        -0.001205001026391983
+      ],
+      "scale": [
+        0.0732950009405613,
+        0.0732950009405613,
+        0.0732950009405613
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 142,
+      "meshIndex": 125,
+      "name": "RudderTrimKnob",
+      "system": "wings_flight_controls",
+      "translation": [
+        -0.31795498728752136,
+        -0.5608150064945221,
+        -0.0006050001829862595
+      ],
+      "scale": [
+        0.02025499939918518,
+        0.02025499939918518,
+        0.02025499939918518
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 144,
+      "meshIndex": 126,
+      "name": "backseat_left",
+      "system": "cabin_interior",
+      "translation": [
+        0.9395549893379211,
+        -0.31280000833794475,
+        0.0009400099515914917
+      ],
+      "scale": [
+        0.40963999927043915,
+        0.40963999927043915,
+        0.40963999927043915
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 145,
+      "meshIndex": 127,
+      "name": "carpet",
+      "system": "cabin_interior",
+      "translation": [
+        0.659280002117157,
+        -0.7036249935626984,
+        0
+      ],
+      "scale": [
+        1.3898599743843079,
+        1.3898599743843079,
+        1.3898599743843079
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 146,
+      "meshIndex": 128,
+      "name": "chassis",
+      "system": "structure_fuselage",
+      "translation": [
+        0.6914050281047821,
+        -0.12290999293327332,
+        0
+      ],
+      "scale": [
+        1.465235024690628,
+        1.465235024690628,
+        1.465235024690628
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 147,
+      "meshIndex": 129,
+      "name": "doorint_left",
+      "system": "cabin_interior",
+      "translation": [
+        0.36025001108646393,
+        -0.1710299849510193,
+        0.4752649962902069
+      ],
+      "scale": [
+        0.5324699878692627,
+        0.5324699878692627,
+        0.5324699878692627
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 148,
+      "meshIndex": 130,
+      "name": "doorint_right",
+      "system": "cabin_interior",
+      "translation": [
+        0.35867999494075775,
+        -0.1710299849510193,
+        -0.47599001228809357
+      ],
+      "scale": [
+        0.5324699878692627,
+        0.5324699878692627,
+        0.5324699878692627
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 149,
+      "meshIndex": 131,
+      "name": "doorintstrapleft",
+      "system": "cabin_interior",
+      "translation": [
+        0.31998999416828156,
+        -0.10269000008702278,
+        0.47123000025749207
+      ],
+      "scale": [
+        0.07711999118328094,
+        0.07711999118328094,
+        0.07711999118328094
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 150,
+      "meshIndex": 132,
+      "name": "doorintstrapright",
+      "system": "cabin_interior",
+      "translation": [
+        0.3174450024962425,
+        -0.10441000014543533,
+        -0.47291499376296997
+      ],
+      "scale": [
+        0.0771150067448616,
+        0.0771150067448616,
+        0.0771150067448616
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 151,
+      "meshIndex": 133,
+      "name": "Firewall",
+      "system": "structure_fuselage",
+      "translation": [
+        0.688194990158081,
+        -0.374844997189939,
+        0
+      ],
+      "scale": [
+        1.458745002746582,
+        1.458745002746582,
+        1.458745002746582
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 152,
+      "meshIndex": 134,
+      "name": "pilotseat_left",
+      "system": "cabin_interior",
+      "translation": [
+        0.22487498819828033,
+        -0.24260499328374863,
+        0.23944000154733658
+      ],
+      "scale": [
+        0.3559649959206581,
+        0.3559649959206581,
+        0.3559649959206581
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 153,
+      "meshIndex": 135,
+      "name": "pilotseat_right",
+      "system": "cabin_interior",
+      "translation": [
+        0.22486501187086105,
+        -0.24288498982787132,
+        -0.21753499284386635
+      ],
+      "scale": [
+        0.35598498955368996,
+        0.35598498955368996,
+        0.35598498955368996
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 154,
+      "meshIndex": 136,
+      "name": "visorbaseleft",
+      "system": "cabin_interior",
+      "translation": [
+        0.10685500130057335,
+        0.4829750061035156,
+        0.40858499705791473
+      ],
+      "scale": [
+        0.011535003781318665,
+        0.011535003781318665,
+        0.011535003781318665
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 155,
+      "meshIndex": 137,
+      "name": "visorbaseright",
+      "system": "cabin_interior",
+      "translation": [
+        0.10685500130057335,
+        0.4829750061035156,
+        -0.40894000232219696
+      ],
+      "scale": [
+        0.011540010571479797,
+        0.011540010571479797,
+        0.011540010571479797
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 156,
+      "meshIndex": 138,
+      "name": "visorleft",
+      "system": "cabin_interior",
+      "translation": [
+        0.1482749991118908,
+        0.44977499544620514,
+        0.2007299973629415
+      ],
+      "scale": [
+        0.1870599971152842,
+        0.1870599971152842,
+        0.1870599971152842
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 157,
+      "meshIndex": 139,
+      "name": "visorright",
+      "system": "cabin_interior",
+      "translation": [
+        0.14773499965667725,
+        0.4511599987745285,
+        -0.19937499752268195
+      ],
+      "scale": [
+        0.18705499777570367,
+        0.18705499777570367,
+        0.18705499777570367
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 158,
+      "meshIndex": 140,
+      "name": "visorrodleft",
+      "system": "cabin_interior",
+      "translation": [
+        0.1043349988758564,
+        0.46695999801158905,
+        0.3912150114774704
+      ],
+      "scale": [
+        0.020704999566078186,
+        0.020704999566078186,
+        0.020704999566078186
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 159,
+      "meshIndex": 141,
+      "name": "visorrodright",
+      "system": "cabin_interior",
+      "translation": [
+        0.10377999767661095,
+        0.4680349975824356,
+        -0.39172500371932983
+      ],
+      "scale": [
+        0.020664989948272705,
+        0.020664989948272705,
+        0.020664989948272705
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 161,
+      "meshIndex": 142,
+      "name": "accport",
+      "system": "unclassified",
+      "translation": [
+        -0.3877650052309036,
+        -0.24574999511241913,
+        -0.23252999782562256
+      ],
+      "scale": [
+        0.01930500566959381,
+        0.01930500566959381,
+        0.01930500566959381
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 162,
+      "meshIndex": 143,
+      "name": "AltStaticAir",
+      "system": "unclassified",
+      "translation": [
+        -0.3720400035381317,
+        -0.26379498839378357,
+        -0.04874499887228012
+      ],
+      "scale": [
+        0.02026998996734619,
+        0.02026998996734619,
+        0.02026998996734619
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 163,
+      "meshIndex": 144,
+      "name": "AvionicsSwitch",
+      "system": "electrical_avionics_visual",
+      "translation": [
+        -0.36069999635219574,
+        -0.23968999832868576,
+        0.3250399976968765
+      ],
+      "scale": [
+        0.008660003542900085,
+        0.008660003542900085,
+        0.008660003542900085
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 164,
+      "meshIndex": 145,
+      "name": "AvionicsSwitchBase",
+      "system": "electrical_avionics_visual",
+      "translation": [
+        -0.3672399967908859,
+        -0.23558000475168228,
+        0.32485999166965485
+      ],
+      "scale": [
+        0.010220006108283997,
+        0.010220006108283997,
+        0.010220006108283997
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 165,
+      "meshIndex": 146,
+      "name": "BeaconSwitch",
+      "system": "electrical_avionics_visual",
+      "translation": [
+        -0.3696250021457672,
+        -0.23544999212026596,
+        0.15321499854326248
+      ],
+      "scale": [
+        0.01484999805688858,
+        0.01484999805688858,
+        0.01484999805688858
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 167,
+      "meshIndex": 147,
+      "name": "autopilot_breaker",
+      "system": "electrical_avionics_visual",
+      "translation": [
+        -0.3635900020599365,
+        -0.23540500551462173,
+        0.22639500349760056
+      ],
+      "scale": [
+        0.008080005645751953,
+        0.008080005645751953,
+        0.008080005645751953
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 168,
+      "meshIndex": 148,
+      "name": "bcnlt_breaker",
+      "system": "electrical_avionics_visual",
+      "translation": [
+        -0.3636000007390976,
+        -0.18825999647378922,
+        0.2112100049853325
+      ],
+      "scale": [
+        0.007650002837181091,
+        0.007650002837181091,
+        0.007650002837181091
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 169,
+      "meshIndex": 149,
+      "name": "BreakersBase",
+      "system": "electrical_avionics_visual",
+      "translation": [
+        -0.36750999093055725,
+        -0.2116900011897087,
+        0.2570499926805496
+      ],
+      "scale": [
+        0.08374999463558197,
+        0.08374999463558197,
+        0.08374999463558197
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 170,
+      "meshIndex": 150,
+      "name": "flaps_breaker",
+      "system": "wings_flight_controls",
+      "translation": [
+        -0.3636000007390976,
+        -0.18825999647378922,
+        0.3029100000858307
+      ],
+      "scale": [
+        0.007650002837181091,
+        0.007650002837181091,
+        0.007650002837181091
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 171,
+      "meshIndex": 151,
+      "name": "instr_breaker",
+      "system": "electrical_avionics_visual",
+      "translation": [
+        -0.3636000007390976,
+        -0.18825999647378922,
+        0.27233999967575073
+      ],
+      "scale": [
+        0.007650002837181091,
+        0.007650002837181091,
+        0.007650002837181091
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 172,
+      "meshIndex": 152,
+      "name": "intlt_breaker",
+      "system": "electrical_avionics_visual",
+      "translation": [
+        -0.3636000007390976,
+        -0.18825999647378922,
+        0.2570600062608719
+      ],
+      "scale": [
+        0.007650002837181091,
+        0.007650002837181091,
+        0.007650002837181091
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 173,
+      "meshIndex": 153,
+      "name": "landing_breaker",
+      "system": "electrical_avionics_visual",
+      "translation": [
+        -0.3636000007390976,
+        -0.18825999647378922,
+        0.22648999840021133
+      ],
+      "scale": [
+        0.007650002837181091,
+        0.007650002837181091,
+        0.007650002837181091
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 174,
+      "meshIndex": 154,
+      "name": "master_breaker",
+      "system": "electrical_avionics_visual",
+      "translation": [
+        -0.3636000007390976,
+        -0.18825999647378922,
+        0.31818999350070953
+      ],
+      "scale": [
+        0.007650002837181091,
+        0.007650002837181091,
+        0.007650002837181091
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 175,
+      "meshIndex": 155,
+      "name": "navlt_breaker",
+      "system": "electrical_avionics_visual",
+      "translation": [
+        -0.3636000007390976,
+        -0.18825999647378922,
+        0.24177000671625137
+      ],
+      "scale": [
+        0.007650002837181091,
+        0.007650002837181091,
+        0.007650002837181091
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 176,
+      "meshIndex": 156,
+      "name": "pitot-heat_breaker",
+      "system": "electrical_avionics_visual",
+      "translation": [
+        -0.3636000007390976,
+        -0.18825999647378922,
+        0.2876199930906296
+      ],
+      "scale": [
+        0.007650002837181091,
+        0.007650002837181091,
+        0.007650002837181091
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 177,
+      "meshIndex": 157,
+      "name": "radio1_breaker",
+      "system": "electrical_avionics_visual",
+      "translation": [
+        -0.3635900020599365,
+        -0.23540500551462173,
+        0.3028549998998642
+      ],
+      "scale": [
+        0.008080005645751953,
+        0.008080005645751953,
+        0.008080005645751953
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 178,
+      "meshIndex": 158,
+      "name": "radio2_breaker",
+      "system": "electrical_avionics_visual",
+      "translation": [
+        -0.3635900020599365,
+        -0.23540500551462173,
+        0.2875649929046631
+      ],
+      "scale": [
+        0.008080005645751953,
+        0.008080005645751953,
+        0.008080005645751953
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 179,
+      "meshIndex": 159,
+      "name": "radio3_breaker",
+      "system": "electrical_avionics_visual",
+      "translation": [
+        -0.3635900020599365,
+        -0.23540500551462173,
+        0.27226999402046204
+      ],
+      "scale": [
+        0.008080005645751953,
+        0.008080005645751953,
+        0.008080005645751953
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 180,
+      "meshIndex": 160,
+      "name": "radio4_breaker",
+      "system": "electrical_avionics_visual",
+      "translation": [
+        -0.3635900020599365,
+        -0.23540500551462173,
+        0.2569800019264221
+      ],
+      "scale": [
+        0.008080005645751953,
+        0.008080005645751953,
+        0.008080005645751953
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 181,
+      "meshIndex": 161,
+      "name": "radio5_breaker",
+      "system": "electrical_avionics_visual",
+      "translation": [
+        -0.3635900020599365,
+        -0.23540500551462173,
+        0.241689994931221
+      ],
+      "scale": [
+        0.008080005645751953,
+        0.008080005645751953,
+        0.008080005645751953
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 182,
+      "meshIndex": 162,
+      "name": "strobe_breaker",
+      "system": "electrical_avionics_visual",
+      "translation": [
+        -0.3636000007390976,
+        -0.18825999647378922,
+        0.19591999799013138
+      ],
+      "scale": [
+        0.007650002837181091,
+        0.007650002837181091,
+        0.007650002837181091
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 183,
+      "meshIndex": 163,
+      "name": "turn-coordinator_breaker",
+      "system": "electrical_avionics_visual",
+      "translation": [
+        -0.3636000007390976,
+        -0.18825999647378922,
+        0.18064000457525253
+      ],
+      "scale": [
+        0.007650002837181091,
+        0.007650002837181091,
+        0.007650002837181091
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 184,
+      "meshIndex": 164,
+      "name": "CabinAir",
+      "system": "cabin_interior",
+      "translation": [
+        -0.4026999920606613,
+        -0.24693500250577927,
+        -0.28441500663757324
+      ],
+      "scale": [
+        0.054020002484321594,
+        0.054020002484321594,
+        0.054020002484321594
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 185,
+      "meshIndex": 165,
+      "name": "CabinAirMounts",
+      "system": "cabin_interior",
+      "translation": [
+        -0.3773549944162369,
+        -0.22203999757766724,
+        -0.28441499173641205
+      ],
+      "scale": [
+        0.03648999333381653,
+        0.03648999333381653,
+        0.03648999333381653
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 186,
+      "meshIndex": 166,
+      "name": "CabinHeat",
+      "system": "cabin_interior",
+      "translation": [
+        -0.4026999920606613,
+        -0.1971450001001358,
+        -0.28441500663757324
+      ],
+      "scale": [
+        0.054020002484321594,
+        0.054020002484321594,
+        0.054020002484321594
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 187,
+      "meshIndex": 167,
+      "name": "CarbHeat",
+      "system": "unclassified",
+      "translation": [
+        -0.41684000194072723,
+        -0.20651499927043915,
+        0.08303999900817871
+      ],
+      "scale": [
+        0.07757000625133514,
+        0.07757000625133514,
+        0.07757000625133514
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 188,
+      "meshIndex": 168,
+      "name": "CarbHeatMount",
+      "system": "unclassified",
+      "translation": [
+        -0.3805350065231323,
+        -0.2065350040793419,
+        0.0831650011241436
+      ],
+      "scale": [
+        0.015455007553100586,
+        0.015455007553100586,
+        0.015455007553100586
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 189,
+      "meshIndex": 169,
+      "name": "doorhandleint_left",
+      "system": "cabin_interior",
+      "translation": [
+        0.06397499889135361,
+        -0.25088999420404434,
+        0.4499349892139435
+      ],
+      "scale": [
+        0.09963499754667282,
+        0.09963499754667282,
+        0.09963499754667282
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 190,
+      "meshIndex": 170,
+      "name": "doorhandleint_right",
+      "system": "cabin_interior",
+      "translation": [
+        0.06490499712526798,
+        -0.25088999420404434,
+        -0.45056501030921936
+      ],
+      "scale": [
+        0.09963499568402767,
+        0.09963499568402767,
+        0.09963499568402767
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 191,
+      "meshIndex": 171,
+      "name": "ElevatorTrimPos",
+      "system": "wings_flight_controls",
+      "translation": [
+        -0.334075003862381,
+        -0.43705499172210693,
+        0.0668250024318695
+      ],
+      "scale": [
+        0.004124999046325684,
+        0.004124999046325684,
+        0.004124999046325684
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 192,
+      "meshIndex": 172,
+      "name": "GenSwitch",
+      "system": "electrical_avionics_visual",
+      "translation": [
+        -0.3699149936437607,
+        -0.20602499693632126,
+        0.4206250011920929
+      ],
+      "scale": [
+        0.018754996359348297,
+        0.018754996359348297,
+        0.018754996359348297
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 193,
+      "meshIndex": 173,
+      "name": "LandingLightSwitch",
+      "system": "electrical_avionics_visual",
+      "translation": [
+        -0.36938999593257904,
+        -0.18792499601840973,
+        0.12817499786615372
+      ],
+      "scale": [
+        0.01463499665260315,
+        0.01463499665260315,
+        0.01463499665260315
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 194,
+      "meshIndex": 174,
+      "name": "LeftBag",
+      "system": "unclassified",
+      "translation": [
+        -0.3301150053739548,
+        -0.5121250003576279,
+        0.4388899952173233
+      ],
+      "scale": [
+        0.15850500762462616,
+        0.15850500762462616,
+        0.15850500762462616
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 195,
+      "meshIndex": 175,
+      "name": "light-knob-base",
+      "system": "electrical_avionics_visual",
+      "translation": [
+        -0.36817000806331635,
+        -0.2641350030899048,
+        0.0348900007084012
+      ],
+      "scale": [
+        0.006900000385940075,
+        0.006900000385940075,
+        0.006900000385940075
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 196,
+      "meshIndex": 176,
+      "name": "LowVoltageLed",
+      "system": "unclassified",
+      "translation": [
+        -0.35651999711990356,
+        -0.15832000225782394,
+        0.36462999880313873
+      ],
+      "scale": [
+        0.004250004887580872,
+        0.004250004887580872,
+        0.004250004887580872
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 197,
+      "meshIndex": 177,
+      "name": "LowVoltageLedBase",
+      "system": "unclassified",
+      "translation": [
+        -0.3585900068283081,
+        -0.15853500366210938,
+        0.3645949959754944
+      ],
+      "scale": [
+        0.005374997854232788,
+        0.005374997854232788,
+        0.005374997854232788
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 198,
+      "meshIndex": 178,
+      "name": "MasterSwitch",
+      "system": "electrical_avionics_visual",
+      "translation": [
+        -0.3697049915790558,
+        -0.2057799994945526,
+        0.40526001155376434
+      ],
+      "scale": [
+        0.018800005316734314,
+        0.018800005316734314,
+        0.018800005316734314
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 199,
+      "meshIndex": 179,
+      "name": "mike",
+      "system": "cabin_interior",
+      "translation": [
+        -0.35005998611450195,
+        -0.3991750031709671,
+        -0.05284000001847744
+      ],
+      "scale": [
+        0.05010499060153961,
+        0.05010499060153961,
+        0.05010499060153961
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 200,
+      "meshIndex": 180,
+      "name": "mike_chord",
+      "system": "cabin_interior",
+      "translation": [
+        -0.3657199889421463,
+        -0.42565998435020447,
+        -0.07197999954223633
+      ],
+      "scale": [
+        0.12224999070167542,
+        0.12224999070167542,
+        0.12224999070167542
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 201,
+      "meshIndex": 181,
+      "name": "mike_mount",
+      "system": "cabin_interior",
+      "translation": [
+        -0.3481450080871582,
+        -0.4073899984359741,
+        -0.05318000167608261
+      ],
+      "scale": [
+        0.013455003499984741,
+        0.013455003499984741,
+        0.013455003499984741
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 202,
+      "meshIndex": 182,
+      "name": "Mixture",
+      "system": "propulsion_visual",
+      "translation": [
+        -0.2991800010204315,
+        -0.206495001912117,
+        -0.09094499796628952
+      ],
+      "scale": [
+        0.06968000531196594,
+        0.06968000531196594,
+        0.06968000531196594
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 203,
+      "meshIndex": 183,
+      "name": "MixtureMount",
+      "system": "propulsion_visual",
+      "translation": [
+        -0.3654800057411194,
+        -0.2065350040793419,
+        -0.09149499982595444
+      ],
+      "scale": [
+        0.011595003306865692,
+        0.011595003306865692,
+        0.011595003306865692
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 204,
+      "meshIndex": 184,
+      "name": "NavLightSwitch",
+      "system": "electrical_avionics_visual",
+      "translation": [
+        -0.36943499743938446,
+        -0.23551000654697418,
+        0.17895499616861343
+      ],
+      "scale": [
+        0.014779999852180481,
+        0.014779999852180481,
+        0.014779999852180481
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 205,
+      "meshIndex": 185,
+      "name": "panel-light-knob",
+      "system": "electrical_avionics_visual",
+      "translation": [
+        -0.3599050045013428,
+        -0.26378999650478363,
+        0.03500000108033419
+      ],
+      "scale": [
+        0.01000000536441803,
+        0.01000000536441803,
+        0.01000000536441803
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 206,
+      "meshIndex": 186,
+      "name": "ParkingBrake",
+      "system": "landing_gear",
+      "translation": [
+        -0.4585749953985214,
+        -0.29935500025749207,
+        0.24908999353647232
+      ],
+      "scale": [
+        0.10387499630451202,
+        0.10387499630451202,
+        0.10387499630451202
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 207,
+      "meshIndex": 187,
+      "name": "PitotHeatSwitch",
+      "system": "electrical_avionics_visual",
+      "translation": [
+        -0.3694150000810623,
+        -0.2356250062584877,
+        0.20504000037908554
+      ],
+      "scale": [
+        0.014665000140666962,
+        0.014665000140666962,
+        0.014665000140666962
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 208,
+      "meshIndex": 188,
+      "name": "PrimerLever",
+      "system": "propulsion_visual",
+      "translation": [
+        -0.4002149999141693,
+        -0.24693500250577927,
+        0.4458250105381012
+      ],
+      "scale": [
+        0.054015010595321655,
+        0.054015010595321655,
+        0.054015010595321655
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 209,
+      "meshIndex": 189,
+      "name": "PrimerLeverMount",
+      "system": "propulsion_visual",
+      "translation": [
+        -0.3659549951553345,
+        -0.24721499532461166,
+        0.445714995265007
+      ],
+      "scale": [
+        0.01311500370502472,
+        0.01311500370502472,
+        0.01311500370502472
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 210,
+      "meshIndex": 190,
+      "name": "radio-light-knob",
+      "system": "electrical_avionics_visual",
+      "translation": [
+        -0.35183000564575195,
+        -0.26378999650478363,
+        0.03500000014901161
+      ],
+      "scale": [
+        0.005720004439353943,
+        0.005720004439353943,
+        0.005720004439353943
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 211,
+      "meshIndex": 191,
+      "name": "StrobeSwitch",
+      "system": "electrical_avionics_visual",
+      "translation": [
+        -0.3694300055503845,
+        -0.23544500023126602,
+        0.12817499786615372
+      ],
+      "scale": [
+        0.014755003154277802,
+        0.014755003154277802,
+        0.014755003154277802
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 212,
+      "meshIndex": 192,
+      "name": "TaxiLightSwitch",
+      "system": "electrical_avionics_visual",
+      "translation": [
+        -0.3695250004529953,
+        -0.1879900023341179,
+        0.15321499854326248
+      ],
+      "scale": [
+        0.014639995992183685,
+        0.014639995992183685,
+        0.014639995992183685
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 213,
+      "meshIndex": 193,
+      "name": "Throttle",
+      "system": "propulsion_visual",
+      "translation": [
+        -0.3065449967980385,
+        -0.20653000473976135,
+        -0.000690000131726265
+      ],
+      "scale": [
+        0.06447499245405197,
+        0.06447499245405197,
+        0.06447499245405197
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 214,
+      "meshIndex": 194,
+      "name": "ThrottleMount",
+      "system": "propulsion_visual",
+      "translation": [
+        -0.3641100078821182,
+        -0.2065350040793419,
+        -0.0009200000204145908
+      ],
+      "scale": [
+        0.012370000127702951,
+        0.012370000127702951,
+        0.012370000127702951
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 215,
+      "meshIndex": 195,
+      "name": "TrimWheel",
+      "system": "landing_gear",
+      "translation": [
+        -0.40621499717235565,
+        -0.44705501198768616,
+        0.04271000064909458
+      ],
+      "scale": [
+        0.08706501126289368,
+        0.08706501126289368,
+        0.08706501126289368
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 216,
+      "meshIndex": 196,
+      "name": "windlocket_left",
+      "system": "unclassified",
+      "translation": [
+        0.31548500061035156,
+        -0.04665499925613403,
+        0.49658501148223877
+      ],
+      "scale": [
+        0.02864500880241394,
+        0.02864500880241394,
+        0.02864500880241394
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 217,
+      "meshIndex": 197,
+      "name": "windlocket_right",
+      "system": "unclassified",
+      "translation": [
+        0.31548500061035156,
+        -0.041954999789595604,
+        -0.4989349991083145
+      ],
+      "scale": [
+        0.02864500880241394,
+        0.02864500880241394,
+        0.02864500880241394
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 218,
+      "meshIndex": 198,
+      "name": "windlocketbak_left",
+      "system": "unclassified",
+      "translation": [
+        0.33568499982357025,
+        -0.04714499972760677,
+        0.5198850035667419
+      ],
+      "scale": [
+        0.01343500055372715,
+        0.01343500055372715,
+        0.01343500055372715
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 219,
+      "meshIndex": 199,
+      "name": "windlocketbak_right",
+      "system": "unclassified",
+      "translation": [
+        0.3356799930334091,
+        -0.04174999985843897,
+        -0.5218450129032135
+      ],
+      "scale": [
+        0.01358999963849783,
+        0.01358999963849783,
+        0.01358999963849783
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 220,
+      "meshIndex": 200,
+      "name": "windowframeleftint",
+      "system": "cabin_interior",
+      "translation": [
+        0.41003000643104315,
+        0.10246500372886658,
+        0.5165750086307526
+      ],
+      "scale": [
+        0.42065000627189875,
+        0.42065000627189875,
+        0.42065000627189875
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 221,
+      "meshIndex": 201,
+      "name": "windowframerightint",
+      "system": "cabin_interior",
+      "translation": [
+        0.4108649995177984,
+        0.10274000465869904,
+        -0.5176799893379211
+      ],
+      "scale": [
+        0.4198049996048212,
+        0.4198049996048212,
+        0.4198049996048212
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 224,
+      "meshIndex": 202,
+      "name": "wing_1L",
+      "system": "wings_flight_controls",
+      "translation": [
+        0.024094998836517334,
+        0.45988498628139496,
+        0.5144000053405762
+      ],
+      "scale": [
+        0.18364499509334564,
+        0.18364499509334564,
+        0.18364499509334564
+      ],
+      "primitives": 1
+    },
+    {
+      "nodeIndex": 225,
+      "meshIndex": 203,
+      "name": "wing_1R",
+      "system": "wings_flight_controls",
+      "translation": [
+        0.024094998836517334,
+        0.4598499834537506,
+        -0.5148699879646301
+      ],
+      "scale": [
+        0.18364499509334564,
+        0.18364499509334564,
+        0.18364499509334564
+      ],
+      "primitives": 1
+    }
+  ]
+}
