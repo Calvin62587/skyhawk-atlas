@@ -1,4 +1,3 @@
-Warning: fs was declared with const; use let for reassignable variables.
                     GNU GENERAL PUBLIC LICENSE
                        Version 2, June 1991
 
